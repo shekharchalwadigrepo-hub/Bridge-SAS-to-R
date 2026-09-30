@@ -1,0 +1,20 @@
+Package: sasToRLearner
+Title: SAS to R Learner Guide (Shiny App)
+Version: 0.1.0
+Authors@R: person("Contributor", role = c("aut", "cre"), email = "you@example.com")
+Description: Interactive learner guide and teaching converter between SAS and R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports:
+    shiny (>= 1.7.0),
+    htmltools
+Suggests:
+    DT,
+    dplyr,
+    ggplot2,
+    haven,
+    readr,
+    tidyr
+Biarch: FALSE
+RoxygenNote: 7.3.0
